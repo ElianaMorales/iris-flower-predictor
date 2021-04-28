@@ -182,6 +182,7 @@ confusionMatrix(
   data = predictions,
   reference = test$Species
 )
+head(model)
 setwd("C:/Users/elian/Documents/DSR")
 #Save the tree model
 save(model, file = "Tree.RData")
